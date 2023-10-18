@@ -17,7 +17,7 @@ spec:
           image: nginxdemos/hello
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 80
               protocol: TCP
           resources:
             requests:
